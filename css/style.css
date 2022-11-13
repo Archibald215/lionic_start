@@ -122,6 +122,10 @@ body {
   text-align: center;
 }
 
+.services_items {
+  margin-top: 54px;
+}
+
 .services_item {
   flex-direction: column;
   align-items: center;
@@ -220,4 +224,58 @@ body {
 
 .clients_name {
   margin-bottom: 5px;
+}
+
+
+/* Contacts */
+
+.contacts_address {
+  font-style: normal;
+}
+
+.contacts_item {
+  flex-direction: column;
+  width: 370px;
+  outline: 1px solid red;
+}
+
+.contacts_item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.contacts_item_caption {
+  margin-bottom: 30px;
+}
+
+.contacts_item_text {
+  margin: 0;
+}
+
+.contacts_item_link:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 42px 2px;
+}
+
+.footer_container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left, 
+.footer-right {
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 28px;
 }
