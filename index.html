@@ -304,8 +304,46 @@
                 </address>
             </div>
         </section>
-        <section id="join_us" class="join_us">
-        
+        <section id="join_us" class="join_us section_offset">
+            <div class="container">
+                <h2 class="section_title join_us_title">
+                    Join&nbsp;us
+                </h2>
+                <p class="section_descr join_us_descr">
+                    Take control of&nbsp;your paid subscriptions today!
+                </p>
+                <form class="" action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+                    <div class="form_top">
+                        <div class="form_left">
+                            <input class="form_input" type="text" name="name" placeholder="Name" required>
+                            <input class="form_input" type="email" name="email" placeholder="E-mail" required>
+                            <input class="form_input" type="tel" name="phone" placeholder="Phone" required>
+                            <select name="country" class="form_select">
+                                <option value="Country" disabled selected>Country</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Estonia">Estonia</option>
+                            </select>
+                        </div>
+                        <div class="form-right">
+                            <textarea class="form_textarea" name="Comment" placeholder="Comment">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="form_bottom">
+                        <div class="form_wrapper">
+                            <button class="btn btn_reset form_btn">GET STARTED</button>
+                            <label class="form_check" for="">
+                                <input type="checkbox" required>
+                                I&nbsp;agree with the <a href="#">user agreement</a> 
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
